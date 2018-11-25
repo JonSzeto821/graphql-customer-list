@@ -1,5 +1,5 @@
 {
-  "customers" : [
+  "customers": [
     {
       "id": "1",
       "name": "Jon",
@@ -13,16 +13,10 @@
       "age": 34
     },
     {
-      "id": "3",
-      "name": "Chris",
-      "email": "chris@gmail.com",
-      "age": 45
-    },
-    {
       "id": "4",
       "name": "Tom",
       "email": "tom@gmail.com",
-      "age": 22
+      "age": 100
     },
     {
       "id": "5",
@@ -47,6 +41,12 @@
       "name": "Ventura",
       "email": "ventura@gmail.com",
       "age": 29
+    },
+    {
+      "name": "Rick",
+      "email": "rick@gmail.com",
+      "age": 20,
+      "id": "sRix7Vt"
     }
   ]
 }
