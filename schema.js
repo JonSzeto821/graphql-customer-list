@@ -30,6 +30,7 @@ const CustomerType = new GraphQLObjectType({
 const RootQuery = new GraphQLObjectType({
   name: 'RootQueryType',
   fields: {
+    //return customer's by id
     customer: {
       type: CustomerType,
       args: {
@@ -41,6 +42,13 @@ const RootQuery = new GraphQLObjectType({
             return customers[i];
           }
         }
+      }
+    },
+    //return full list of customers
+    customers: {
+      type: new GraphQLList(CustomerType),
+      resolve(parentValue, args) {
+        return customers;
       }
     }
   }
